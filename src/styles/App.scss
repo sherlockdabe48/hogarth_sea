@@ -1,0 +1,31 @@
+@import "./default-styles.scss";
+@import "./utilities";
+
+.App {
+  background-color: #ffffff;
+}
+
+.default_page {
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0, 0.6),
+      rgb(255, 255, 255, 0) 90%
+    ),
+    url("https://picsum.photos/1200/800?grayscale");
+  background-size: cover;
+
+  .default_page_content {
+    font-size: 2rem;
+    top: 40%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    height: 600px;
+
+    @media (max-width: 768px) {
+      padding: 0 20%;
+      font-size: 1.5rem;
+    }
+  }
+}

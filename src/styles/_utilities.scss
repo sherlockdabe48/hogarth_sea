@@ -1,0 +1,18 @@
+@use "sass:math";
+
+$base-font-size: 16px;
+
+// Calculation for Rem from Pixel unit
+@function pxToRem($px, $base: $base-font-size) {
+  @return (math.div($px, $base)) * 1rem;
+}
+
+// Calculation for Pixel from Point unit
+// px = pt * ( 72pt / 96 )
+@function ptToPx($pt) {
+  @return 1px * $pt * (math.div(96, 72));
+}
+
+@function ptToRem($pt) {
+  @return pxToRem($pt);
+}

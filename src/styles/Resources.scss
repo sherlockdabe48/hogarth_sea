@@ -1,0 +1,57 @@
+@import "../styles/utilities";
+
+.resources {
+  @media (max-width: 476px) {
+    h2 {
+      &.title {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+.resource_card {
+  min-width: 380px;
+  @media (max-width: 476px) {
+    min-width: 200px;
+  }
+}
+
+.resource_content_wrapper {
+  padding: 4rem 3rem 3rem 3rem;
+  @media (max-width: 1024px) {
+    .title {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 476px) {
+    .title {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+.resource_icon {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.resources_grid {
+  display: grid;
+  margin-top: 3rem;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr;
+  }
+}

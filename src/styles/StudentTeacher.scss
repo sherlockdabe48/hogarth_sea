@@ -1,0 +1,112 @@
+.student_teacher {
+  background-color: white;
+  margin: auto;
+  padding-bottom: 4rem;
+}
+
+.student_teacher_image_wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 15%;
+  @media (max-width: 476px) {
+    padding: 0 12%;
+  }
+  @media (max-width: 400px) {
+    padding: 0 10%;
+  }
+}
+
+.student_teacher_image {
+  height: 240px;
+  background-image: url("../../public/images/middle_content_image.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (max-width: 1024px) {
+    height: 200px;
+    background-size: calc(2490px / 3.2) calc(1531px / 3.2);
+  }
+  @media (max-width: 476px) {
+    height: 160px;
+    background-size: calc(2490px / 4) calc(1531px / 4);
+  }
+}
+
+.student_teacher_desc_wrapper {
+  margin-bottom: 6rem;
+  padding: 0 15%;
+
+  @media (max-width: 476px) {
+    padding: 0 12%;
+    margin-bottom: 3rem;
+  }
+  @media (max-width: 400px) {
+    padding: 0 10%;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    &.title {
+      @media (max-width: 768px) {
+        font-size: 3.5rem;
+      }
+      @media (max-width: 568px) {
+        font-size: 3rem;
+      }
+      @media (max-width: 476px) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+.student_teacher_desc {
+  padding: 0 6rem;
+  @media (max-width: 1024px) {
+    padding: 0 2rem;
+  }
+  @media (max-width: 476px) {
+    font-size: 1rem;
+  }
+}
+
+.student_teacher_sub_content_wrapper {
+  padding: 0 15%;
+
+  .s_t_icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  @media (max-width: 1200px) {
+    h3 {
+      &.title {
+        font-size: 2.5rem;
+        white-space: nowrap;
+      }
+    }
+  }
+  @media (max-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    .s_t_icon {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  @media (max-width: 476px) {
+    padding: 0 12%;
+    h3 {
+      &.title {
+        font-size: 2rem;
+      }
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 400px) {
+    padding: 0 10%;
+  }
+}
