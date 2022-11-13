@@ -17,11 +17,14 @@
 }
 
 .student_teacher_image {
-  height: 240px;
+  height: 360px;
   background-image: url("../../public/images/middle_content_image.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  @media (max-width: 1400px) {
+    height: 260px;
+  }
   @media (max-width: 1024px) {
     height: 200px;
     background-size: calc(2490px / 3.2) calc(1531px / 3.2);
