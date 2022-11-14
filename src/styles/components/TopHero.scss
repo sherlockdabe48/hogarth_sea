@@ -18,9 +18,11 @@
     background-position: -260px -180px;
     background-size: 1800px 1011px;
   }
+
   @media (max-width: 580px) {
     padding: 0 12%;
   }
+
   @media (max-width: 476px) {
     padding: 0 10%;
   }
@@ -37,12 +39,14 @@
   @media (max-width: 1200px) {
     left: 40%;
   }
+
   @media (max-width: 1024px) {
     position: relative;
     top: -5%;
     left: 0;
     right: 0px;
   }
+
   @media (max-width: 476px) {
     position: relative;
     top: 5%;
@@ -54,6 +58,7 @@
     @media (min-width: 1025px) {
       font-size: ptToRem(60pt);
     }
+
     @media (max-width: 1024px) {
       font-size: ptToRem(52pt);
     }
@@ -70,9 +75,11 @@
     @media (max-width: 476px) {
       font-size: ptToRem(36pt);
     }
+
     @media (max-width: 420px) {
       font-size: ptToRem(32pt);
     }
+
     @media (max-width: 400px) {
       font-size: ptToRem(28pt);
       margin-bottom: 1rem !important;
@@ -83,9 +90,11 @@
     @media (max-width: 680px) {
       font-size: ptToRem(18pt);
     }
+
     @media (max-width: 580px) {
       font-size: ptToRem(16pt);
     }
+
     @media (max-width: 476px) {
       font-size: ptToRem(14pt);
     }

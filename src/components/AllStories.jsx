@@ -8,13 +8,13 @@ export const AllStories = ({ isMobile }) => {
       name: "The best to happen.",
       describe:
         "See how simple it is to conduct lessons, mark assignments and stay connected.",
-      type: "grid_image_top",
+      layout: "grid_image_top",
     },
     {
       name: "Grow into an immersive experience.",
       describe:
         "Keep yourself in the loop and prepare for your class. When you create or update an assignment or reply to a discussion, they'll know right away.",
-      type: "grid_image_bottom",
+      layout: "grid_image_bottom",
     },
   ];
   return (
@@ -31,7 +31,7 @@ export const AllStories = ({ isMobile }) => {
           return (
             <MainContentCard
               key={story.name}
-              type={story.type}
+              layout={story.layout}
               topic={story.name}
               desc={story.describe}
             />

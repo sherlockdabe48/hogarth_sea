@@ -6,13 +6,16 @@
   height: 300px;
   display: flex;
   justify-items: center;
+
   @media (max-width: 960px) {
     background-size: calc(2162px / 1.8) calc(1442px / 1.8);
   }
+
   @media (max-width: 768px) {
     height: 250px;
     background-size: calc(2162px / 2) calc(1442px / 2);
   }
+
   @media (max-width: 476px) {
     height: 200px;
     background-size: calc(2162px / 2.2) calc(1442px / 2.2);
@@ -27,12 +30,14 @@
   text-align: center;
   color: white;
   padding: 0rem 20%;
+
   @media (max-width: 960px) {
     padding: 0;
     p {
       padding: 0rem 10%;
     }
   }
+
   @media (max-width: 768px) {
     gap: 2rem;
     padding: 0;
@@ -44,6 +49,7 @@
       font-size: 1.5rem;
     }
   }
+
   @media (max-width: 476px) {
     gap: 1.5rem;
     padding: 0;

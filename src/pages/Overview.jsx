@@ -20,6 +20,8 @@ const Overview = () => {
     };
   }, []);
 
+  // From the design, the layout should be changed when the screen size is below 1024px
+  // refer to the size of the iPad Air.
   const isMobile = width <= 1024;
   return (
     <>
@@ -30,7 +32,7 @@ const Overview = () => {
       </div>
       <StudentTeacher isMobile={isMobile} />
       <div className="pageWrapper bg_grey">
-        <Resources isMobile={isMobile} />
+        <Resources />
       </div>
       <BottomHero />
       <WeAreHere isMobile={isMobile} />

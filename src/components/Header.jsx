@@ -10,9 +10,9 @@ const Header = () => {
   };
   return (
     <div className="header">
-      <div className="header__logo">Study</div>
-      <div className="header__menuWrapper">
-        <ul className="noStyleList">
+      <div className="header_logo">Study</div>
+      <div className="header_menuWrapper">
+        <ul className="no_style_list">
           <li>
             <NavLink
               to={"/overview"}

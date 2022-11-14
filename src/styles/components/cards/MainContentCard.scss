@@ -3,6 +3,7 @@
 .mainContentCard {
   margin: 0;
   height: 700px !important;
+
   @media (max-width: 1024px) {
     height: 700px !important;
   }
@@ -20,6 +21,7 @@
 .main_content_text_wrapper {
   height: 100%;
   padding: 2rem 3rem 3rem 3rem;
+
   @media (max-width: 476px) {
     padding: 2rem 2rem 2rem 2rem;
   }
@@ -53,14 +55,13 @@
   background-size: calc(1743px / 2.5) calc(1070px / 2.5);
   background-repeat: no-repeat;
   background-position: bottom;
+
   @media (max-width: 1600px) {
     background-size: calc(1743px / 3.2) calc(1070px / 3.2);
   }
-
   @media (max-width: 1200px) {
     background-size: calc(1743px / 3.8) calc(1070px / 3.8);
   }
-
   @media (max-width: 1024px) {
     background-size: calc(1743px / 2.5) calc(1070px / 2.5);
   }

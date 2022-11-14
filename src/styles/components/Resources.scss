@@ -12,6 +12,7 @@
 
 .resource_card {
   min-width: 380px;
+
   @media (max-width: 476px) {
     min-width: 200px;
   }
@@ -19,6 +20,7 @@
 
 .resource_content_wrapper {
   padding: 4rem 3rem 3rem 3rem;
+
   @media (max-width: 1024px) {
     .title {
       font-size: 2rem;
@@ -28,6 +30,7 @@
       font-size: 1.5rem;
     }
   }
+
   @media (max-width: 476px) {
     .title {
       font-size: 1.5rem;

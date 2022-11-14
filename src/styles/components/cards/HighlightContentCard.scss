@@ -84,22 +84,27 @@
     margin-right: 0;
     height: 280px;
   }
+
   @media (max-width: 980px) {
     background-size: 572px 260px;
     height: 260px;
   }
+
   @media (max-width: 900px) {
     background-size: 528px 240px;
     height: 240px;
   }
+
   @media (max-width: 860px) {
     background-size: 500px 227px;
     height: 227px;
   }
+
   @media (max-width: 768px) {
     background-size: 440px 200px;
     height: 200px;
   }
+
   @media (max-width: 680px) {
     background-size: 396px 180px;
     height: 180px;
@@ -109,6 +114,7 @@
     background-size: 320px 145px;
     height: 145px;
   }
+
   @media (max-width: 540px) {
     background-size: 286px 130px;
     height: 130px;

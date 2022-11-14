@@ -1,5 +1,6 @@
 .all_stories {
   margin-top: 4rem;
+
   @media (max-width: 820px) {
     h2 {
       &.title {
@@ -7,6 +8,7 @@
       }
     }
   }
+
   @media (max-width: 476px) {
     h2 {
       &.title {
@@ -18,11 +20,13 @@
 
 .all_stories_card_wrapper {
   margin-top: 3rem;
+
   @media (max-width: 1024px) {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
+
   @media (max-width: 476px) {
     h3 {
       &.title {

@@ -19,7 +19,7 @@
   }
 }
 
-.header__logo {
+.header_logo {
   color: white;
   font-size: ptToRem(32pt);
   @media (max-width: 768px) {
@@ -33,13 +33,13 @@
   }
 }
 
-.header__menuWrapper {
+.header_menuWrapper {
   @media (max-width: 768px) {
     display: none;
   }
 }
 
-.noStyleList {
+.no_style_list {
   display: flex;
   list-style: none;
   gap: pxToRem(24px);

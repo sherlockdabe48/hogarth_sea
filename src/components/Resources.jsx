@@ -3,9 +3,9 @@ import "../styles/components/Resources.scss";
 import slide_icon from "../../src/resources/icons/slide_icon.png";
 import note_icon from "../../src/resources/icons/note_icon.png";
 import wps_icon from "../../src/resources/icons/wps_icon.png";
-import lekh_icon from "../../src/resources/icons/lekh_icon.png";
+// import lekh_icon from "../../src/resources/icons/lekh_icon.png";
 
-export const Resources = ({ isMobile }) => {
+export const Resources = () => {
   const resources = [
     {
       name: "Slide",

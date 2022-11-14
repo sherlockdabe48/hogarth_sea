@@ -2,9 +2,11 @@
 
 .we_are_here {
   padding: 3rem 16rem;
+
   @media (max-width: 960px) {
     padding: 3rem 15%;
   }
+
   @media (max-width: 476px) {
     padding: 3rem 10%;
   }
@@ -26,6 +28,7 @@
       }
     }
   }
+
   @media (max-width: 476px) {
     h2 {
       &.title {
@@ -50,6 +53,7 @@
   }
   width: 72px;
   height: 72px;
+
   @media (max-width: 476px) {
     width: 56px;
     height: 56px;
