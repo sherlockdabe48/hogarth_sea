@@ -1,18 +1,18 @@
 import React from "react";
 import "../styles/StudentTeacher.scss";
-import post_icon from "../resources/icons/post_icon.svg";
-import message_icon from "../resources/icons/message_icon.svg";
+import { ReactComponent as PostIcon } from "../resources/icons/post_icon.svg";
+import { ReactComponent as MessageIcon } from "../resources/icons/message_icon.svg";
 
 export const StudentTeacher = ({ isMobile }) => {
   const studentAndTeacherContents = [
     {
       name: "Post all the details",
-      icon: post_icon,
+      icon: <PostIcon className="s_t_icon m_r_12" />,
       desc: "Once you've published a assignment or lesson, students have immediate access to all materials, instructions, project deadline and grading information.",
     },
     {
       name: "Stay connected",
-      icon: message_icon,
+      icon: <MessageIcon className="s_t_icon m_r_12" />,
       desc: "Continue conversations beyond classroom or post a debate that gets everyone talking. You can also go on an one-to-one chat. A whole new way to stay connected.",
     },
   ];
@@ -46,11 +46,7 @@ export const StudentTeacher = ({ isMobile }) => {
           return (
             <div className="flex_column" key={content.name}>
               <div className="flex_center m_b_16">
-                <img
-                  className="s_t_icon text_orange m_r_12"
-                  src={content.icon}
-                  alt=""
-                />
+                {content.icon}
                 <h3 className="title text_32pt">{content.name}</h3>
               </div>
               <hr />

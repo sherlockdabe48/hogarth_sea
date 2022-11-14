@@ -1,3 +1,5 @@
+@import "../styles/colors";
+
 .student_teacher {
   background-color: white;
   margin: auto;
@@ -77,6 +79,9 @@
   padding: 0 15%;
 
   .s_t_icon {
+    g {
+      fill: $orange;
+    }
     width: 40px;
     height: 40px;
   }

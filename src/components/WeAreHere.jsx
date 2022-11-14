@@ -1,18 +1,18 @@
 import React from "react";
 import "../styles/WeAreHere.scss";
-import book_icon from "../../src/resources/icons/book_icon.svg";
-import gear_icon from "../../src/resources/icons/gear_icon.svg";
+import { ReactComponent as BookIcon } from "../../src/resources/icons/book_icon.svg";
+import { ReactComponent as GearIcon } from "../../src/resources/icons/gear_icon.svg";
 
 export const WeAreHere = ({ isMobile }) => {
   const helpList = [
     {
       name: "Special Education",
-      icon: book_icon,
+      icon: <BookIcon className="w_r_icon m_b_20" />,
       desc: "Possibility is built starts from here.",
     },
     {
       name: "Information Technology",
-      icon: gear_icon,
+      icon: <GearIcon className="w_r_icon m_b_20" />,
       desc: "Manage devices and content for your students",
     },
   ];
@@ -29,7 +29,7 @@ export const WeAreHere = ({ isMobile }) => {
             {helpList.map((item) => {
               return (
                 <div className="w_r_item" key={item.name}>
-                  <img className="w_r_icon m_b_20" src={item.icon} alt="" />
+                  {item.icon}
                   <h3 className="title text_30pt m_b_12">{item.name}</h3>
                   <p className="normal_text text_16pt text_center m_b_8">
                     {item.desc}
