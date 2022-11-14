@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/WeAreHere.scss";
+import "../styles/components/WeAreHere.scss";
 import { ReactComponent as BookIcon } from "../../src/resources/icons/book_icon.svg";
 import { ReactComponent as GearIcon } from "../../src/resources/icons/gear_icon.svg";
 

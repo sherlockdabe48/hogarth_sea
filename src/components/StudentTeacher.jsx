@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/StudentTeacher.scss";
+import "../styles/components/StudentTeacher.scss";
 import { ReactComponent as PostIcon } from "../resources/icons/post_icon.svg";
 import { ReactComponent as MessageIcon } from "../resources/icons/message_icon.svg";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Resources.scss";
+import "../styles/components/Resources.scss";
 import slide_icon from "../../src/resources/icons/slide_icon.png";
 import note_icon from "../../src/resources/icons/note_icon.png";
 import wps_icon from "../../src/resources/icons/wps_icon.png";

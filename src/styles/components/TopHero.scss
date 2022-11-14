@@ -1,4 +1,4 @@
-@import "../styles/utilities";
+@import "../../styles/utilities";
 
 .top_hero {
   background-image: linear-gradient(
@@ -6,7 +6,7 @@
       rgb(0, 0, 0, 0.3),
       rgba(255, 255, 255, 0) 70%
     ),
-    url("../../public/images/top_hero_bg.jpg");
+    url("../../../public/images/top_hero_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;

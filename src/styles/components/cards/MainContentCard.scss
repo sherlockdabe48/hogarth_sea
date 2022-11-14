@@ -1,4 +1,4 @@
-@import "./Cards.scss";
+@import "./../cards/Cards.scss";
 
 .mainContentCard {
   margin: 0;
@@ -26,7 +26,7 @@
 }
 
 .mainContentImage_top {
-  background-image: url("../../../public/images/main_content_image_1.jpg");
+  background-image: url("../../../../public/images/main_content_image_1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 500px 560px;
@@ -49,7 +49,7 @@
 }
 
 .mainContentImage_bottom {
-  background-image: url("../../../public/images/main_content_image_2.jpg");
+  background-image: url("../../../../public/images/main_content_image_2.jpg");
   background-size: calc(1743px / 2.5) calc(1070px / 2.5);
   background-repeat: no-repeat;
   background-position: bottom;

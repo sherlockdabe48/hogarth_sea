@@ -1,4 +1,4 @@
-@import "../styles/colors";
+@import "../../styles/colors";
 
 .student_teacher {
   background-color: white;
@@ -20,7 +20,7 @@
 
 .student_teacher_image {
   height: 360px;
-  background-image: url("../../public/images/middle_content_image.jpg");
+  background-image: url("../../../public/images/middle_content_image.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;

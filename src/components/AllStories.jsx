@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/AllStories.scss";
+import "../styles/components/AllStories.scss";
 import { MainContentCard } from "./cards/MainContentCard";
 
 export const AllStories = ({ isMobile }) => {

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/TopHero.scss";
+import "../styles/components/TopHero.scss";
 
 const TopHero = () => {
   return (

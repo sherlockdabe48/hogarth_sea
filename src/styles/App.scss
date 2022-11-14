@@ -1,5 +1,8 @@
-@import "./default-styles.scss";
-@import "./utilities";
+@import "./_default_styles.scss";
+@import "./_utilities";
+@import "./_spaces";
+@import "./_text_sizes";
+@import "./_layouts";
 
 .App {
   background-color: #ffffff;

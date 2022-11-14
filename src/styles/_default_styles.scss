@@ -1,0 +1,97 @@
+@import "../styles/utilities";
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 15%;
+
+  @media (max-width: 580px) {
+    padding: 4rem 12%;
+  }
+
+  @media (max-width: 476px) {
+    padding: 4rem 10%;
+  }
+}
+
+.bg_grey {
+  background-color: #ebebeb;
+}
+
+.bg_white {
+  background-color: #fff;
+}
+
+p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.link {
+  text-decoration: none;
+  color: lightgray;
+  &:hover {
+    color: white;
+  }
+  &.active_link {
+    color: white;
+    font-weight: 500;
+  }
+}
+
+.blue_link {
+  text-decoration: none;
+  color: #21b0d0;
+  &:hover {
+    color: #21b0d0;
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  font-weight: 400;
+  font-size: ptToRem(60pt);
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 0;
+  @media (max-width: 476px) {
+    &.title {
+      font-size: 2.5rem !important;
+    }
+  }
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0;
+  @media (max-width: 476px) {
+    &.title {
+      font-size: 1.5rem !important;
+    }
+  }
+}
+
+hr {
+  width: 100%;
+}
+
+.text_nowrap {
+  white-space: nowrap;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.normal_text {
+  font-weight: 300;
+}
+
+.text_center {
+  text-align: center;
+}

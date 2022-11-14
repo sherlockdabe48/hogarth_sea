@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/Header.scss";
+import "../styles/components/Header.scss";
 import collapse_icon from "../resources/icons/collapse_icon.svg";
 
 const Header = () => {

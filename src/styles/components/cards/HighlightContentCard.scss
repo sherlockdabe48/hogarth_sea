@@ -1,4 +1,4 @@
-@import "./Cards.scss";
+@import "./../cards/Cards.scss";
 
 .highlightContentCard {
   padding: 3rem;
@@ -50,7 +50,7 @@
 
 .hi_img_1 {
   height: 280px;
-  background-image: url("../../../public/images/highlight_image_1.jpg");
+  background-image: url("../../../../public/images/highlight_image_1.jpg");
   background-size: 1500px 1500px;
   background-position: center 52%;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 }
 
 .hi_img_2 {
-  background-image: url("../../../public/images/highlight_image_2.jpg");
+  background-image: url("../../../../public/images/highlight_image_2.jpg");
   margin-right: 1.5rem;
   background-size: 440px 200px;
   background-position: center;

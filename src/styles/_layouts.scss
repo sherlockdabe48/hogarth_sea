@@ -1,0 +1,37 @@
+// GRIDS
+
+.grid_2c {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid_2c_small_gab_middle {
+  display: grid;
+  grid-template-columns: 2fr 0.25fr 2fr;
+}
+
+.grid_2c_gab_3rem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+}
+
+// FLEXES
+
+.flex {
+  display: flex;
+}
+
+.flex_center {
+  display: flex;
+  align-items: center;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_column_gab_normal {
+  @extend .flex_column;
+  gap: 4rem;
+}

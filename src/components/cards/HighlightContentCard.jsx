@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/cards/HighlightContentCard.scss";
+import "../../styles/components/cards/HighlightContentCard.scss";
 
 export const HighlightContentCard = ({ isMobile }) => {
   return (

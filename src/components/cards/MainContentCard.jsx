@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/cards/MainContentCard.scss";
+import "../../styles/components/cards/MainContentCard.scss";
 
 export const MainContentCard = ({ topic, desc, type = "grid_image_top" }) => {
   const layout = () => {
