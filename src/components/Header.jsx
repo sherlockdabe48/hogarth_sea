@@ -20,7 +20,7 @@ const Header = () => {
                 isActive ? "link active_link" : "link"
               }
             >
-              Overview
+              ภาพรวม
             </NavLink>
           </li>
           <li>
@@ -30,7 +30,7 @@ const Header = () => {
                 isActive ? "link active_link" : "link"
               }
             >
-              Teachers
+              คุณครู
             </NavLink>
           </li>
           <li>
@@ -40,7 +40,7 @@ const Header = () => {
                 isActive ? "link active_link" : "link"
               }
             >
-              Students
+              นักเรียน
             </NavLink>
           </li>
         </ul>
@@ -62,7 +62,7 @@ const Header = () => {
                     isActive ? "link active_link" : "link"
                   }
                 >
-                  Overview
+                  ภาพรวม
                 </NavLink>
               </li>
               <li>
@@ -72,7 +72,7 @@ const Header = () => {
                     isActive ? "link active_link" : "link"
                   }
                 >
-                  Teachers
+                  คุณครู
                 </NavLink>
               </li>
               <li>
@@ -82,7 +82,7 @@ const Header = () => {
                     isActive ? "link active_link" : "link"
                   }
                 >
-                  Students
+                  นักเรียน
                 </NavLink>
               </li>
             </ul>

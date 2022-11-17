@@ -5,21 +5,21 @@ import { MainContentCard } from "./cards/MainContentCard";
 export const AllStories = ({ isMobile }) => {
   const stories = [
     {
-      name: "The best to happen.",
+      name: "สิ่งที่ดีที่สุดที่เกิดขึ้น",
       describe:
-        "See how simple it is to conduct lessons, mark assignments and stay connected.",
+        "จะเห็นว่ามันง่ายแค่ไหนในการสร้างบทเรียน ให้คะแนนการบ้าน และการเชื่อมต่อ",
       layout: "grid_image_top",
     },
     {
-      name: "Grow into an immersive experience.",
+      name: "เติบโตไปพร้อมกับประสบการณ์ที่ลึกซึ้ง",
       describe:
-        "Keep yourself in the loop and prepare for your class. When you create or update an assignment or reply to a discussion, they'll know right away.",
+        "ให้ตัวคุณเองอยู่ในขอบเขตและเตรียมพร้อมสำหรับการเรียนรู้ของคุณ เมื่อคุณสร้างหรือแก้ไขงานที่ได้รับมอบหมายหรือตอบการอภิปราย พวกเขาจะทราบได้ทันที",
       layout: "grid_image_bottom",
     },
   ];
   return (
     <div className="all_stories">
-      <h2 className="title text_45pt m_b_16">All the stories in the world</h2>
+      <h2 className="title text_45pt m_b_16">เรื่องราวทั้งหมดในประเทศไทย</h2>
       <hr className="hr"></hr>
 
       <div

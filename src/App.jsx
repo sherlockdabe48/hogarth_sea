@@ -31,6 +31,7 @@ const App = () => {
             path="/teachers"
             element={<CurrentNotAvailable pageName="Teachers" />}
           />
+
           <Route
             exact
             path="/students"

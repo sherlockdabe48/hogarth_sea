@@ -5,10 +5,10 @@ const BottomHero = () => {
   return (
     <div className="bottom_hero">
       <div className="bottom_hero_content">
-        <h1 className="title text_60pt">Don't miss a thing.</h1>
+        <h1 className="title text_60pt">ไม่ควรพลาดเด็ดขาด</h1>
         <p className="normal_text text_22pt">
-          We believe in the power of technology to transform the ways we learn.
-          Keep yourself in the loop and be prepared for class.
+          เราเชื่อมั่นในพลังของเทคโนโลยีที่จะเปลี่ยนแนวทางการเรียนรู้ของเรา
+          ให้ตัวเองในการเชื่อมต่ออยู่เสมอและเตรียมตัวสำหรับการเรียน
         </p>
       </div>
     </div>

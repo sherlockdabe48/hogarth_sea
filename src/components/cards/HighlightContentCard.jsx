@@ -9,9 +9,11 @@ export const HighlightContentCard = ({ isMobile }) => {
         <div className={`hi_desc_wrapper ${!isMobile ? "grid_2c" : ""}`}>
           <div className="hi_img_2"></div>
           <div className={`hi_content_wrapper ${isMobile ? "m_t_20" : ""}`}>
-            <h3 className="title text_36pt m_b_20">Get creative</h3>
+            <h3 className="title text_36pt m_b_20">
+              ดึงความสร้างสรรค์ในตัวคุณ
+            </h3>
             <p className="normal_text text_20pt">
-              There's no limit to how creative your project homeworks can be.
+              ความสามารถในการสร้างสรรค์โครงการของคุณที่ไร้ขีดจำกัด
             </p>
           </div>
         </div>

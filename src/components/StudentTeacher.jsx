@@ -6,14 +6,14 @@ import { ReactComponent as MessageIcon } from "../resources/icons/message_icon.s
 export const StudentTeacher = ({ isMobile }) => {
   const studentAndTeacherContents = [
     {
-      name: "Post all the details",
+      name: "โพสต์รายละเอียดทั้งหมด",
       icon: <PostIcon className="s_t_icon m_r_12" />,
-      desc: "Once you've published a assignment or lesson, students have immediate access to all materials, instructions, project deadline and grading information.",
+      desc: "เมื่อคุณได้ตีพิมพ์งานหรือบทเรียนที่นักเรียนสามารถเข้าใจได้ในทันที เนื้อหาและคำแนะนำ รวมถึงกำหนดวันที่เสร็จสิ้นโครงการและการจัดลำดับข้อมูล",
     },
     {
-      name: "Stay connected",
+      name: "เชื่อมต่ออยู่เสมอ",
       icon: <MessageIcon className="s_t_icon m_r_12" />,
-      desc: "Continue conversations beyond classroom or post a debate that gets everyone talking. You can also go on an one-to-one chat. A whole new way to stay connected.",
+      desc: "การสนทนาที่ต่อเนื่อง นอกเหนือจากในห้องเรียนหรือการแสดงอภิปราย รับฟังการพูดคุยของทุกคน  คุณยังสามารถพูดคุยส่วนตัวแบบหนึ่งต่อหนึ่งได้อีกด้วย ทั้งหมดนี้ในวิธีการเชื่อมต่อแบบใหม่",
     },
   ];
   return (
@@ -23,18 +23,15 @@ export const StudentTeacher = ({ isMobile }) => {
       </div>
       <div className="student_teacher_desc_wrapper">
         <div className="title_wrapper m_b_32">
-          <h2 className="title text_56pt text_center">Students & teacher</h2>
           <h2 className="title text_56pt text_center">
-            reimagine the textbook.
+            นักเรียนและครูปฏิวัติตำราเรียน
           </h2>
         </div>
         <p className="student_teacher_desc normal_text text_20pt text_center">
-          Teachers prepare students to lead their own classroom. It's never
-          easier to create amazing lessons and deliver everything students need
-          to stay engaged, all in one place.
+          ครูอาจารย์เตรียมการให้นักเรียนในการเป็นผู้สอนในห้องเรียนของพวกเราเอง
+          มันไม่ง่ายเลยที่จะสร้างการเรียนการสอนอันน่าทึ่งและมอบทุกอย่างให้นักเรียนตามที่ต้องการได้ทั้งหมดในครั้งเดียว
           <br />
-          Build assignments immediately and share the details with your
-          students.
+          สร้างและมอบหมายงานได้ทันทีและส่งรายละเอียดให้นักเรียนของคุณ
         </p>
       </div>
       <div

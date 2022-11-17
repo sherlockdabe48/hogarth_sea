@@ -6,20 +6,22 @@ import { ReactComponent as GearIcon } from "../../src/resources/icons/gear_icon.
 export const WeAreHere = ({ isMobile }) => {
   const helpList = [
     {
-      name: "Special Education",
+      name: "การศึกษาพิเศษ",
       icon: <BookIcon className="w_r_icon m_b_20" />,
-      desc: "Possibility is built starts from here.",
+      desc: "ความเป็นไปได้ถูกสร้างขึ้นจะเริ่มต้นจากที่นี่กับคุณ",
     },
     {
-      name: "Information Technology",
+      name: "เทคโนโลยีสารสนเทศ",
       icon: <GearIcon className="w_r_icon m_b_20" />,
-      desc: "Manage devices and content for your students",
+      desc: "จัดการอุปกรณ์และเนื้อหาสำหรับนักเรียนของคุณ ดูข้อมูลเพิ่มเติม",
     },
   ];
   return (
     <div className="we_are_here bg_grey">
       <div className="we_are_here_content">
-        <h2 className="title text_45pt m_b_44">We are here to help.</h2>
+        <h2 className="title text_45pt m_b_44">
+          เราอยู่ที่นี่เพื่อช่วยเหลือคุณ
+        </h2>
         <div className="we_are_here_sub_content">
           <div
             className={`${
@@ -35,7 +37,7 @@ export const WeAreHere = ({ isMobile }) => {
                     {item.desc}
                   </p>
                   <a href="/" className="blue_link text_16pt">
-                    Learn more
+                    ดูเพิ่มเติม
                   </a>
                 </div>
               );

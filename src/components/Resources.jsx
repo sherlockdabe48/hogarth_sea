@@ -8,9 +8,9 @@ import wps_icon from "../../src/resources/icons/wps_icon.png";
 export const Resources = () => {
   const resources = [
     {
-      name: "Slide",
+      name: "สไลด์",
       icon: slide_icon,
-      desc: "Transform your device into a fast and lightweight mouse for your desktop.",
+      desc: "เปลี่ยนอุปกรณ์ของคุณให้เป็นเม้าส์ที่รวดเร็วและน้ำหนักเบาสำหรับเดสก์ทอปของคุณ",
     },
     // Remove this item for SG and TH
     // {
@@ -19,19 +19,19 @@ export const Resources = () => {
     //   desc: "Express your ideas simply by sketching with your finger.",
     // },
     {
-      name: "WPS Office",
+      name: "สำนักงาน WPS",
       icon: wps_icon,
-      desc: "All-in-one free office suite app focusing on helping you to create, view and edit anytime.",
+      desc: "ทั้งหมดรวมในหนึ่งเดียว ฟรีชุดแอพออฟฟิศมุ่งเน้นไปที่การช่วยให้คุณสร้างแสดงภาพและทำการแก้ไขได้ตลอดเวลา",
     },
     {
       name: "ColorNote Notepad",
       icon: note_icon,
-      desc: "A simple and awesome notepad app to give you a quick simple editing experience.",
+      desc: "ความเรียบง่ายและความเจ๋งของแอพ notepad ที่จะให้คุณได้สัมผัสประสบการณ์การแก้ไขที่รวดเร็วและง่ายดาย",
     },
   ];
   return (
     <div className="resources">
-      <h2 className="title m_b_16">Resources</h2>
+      <h2 className="title m_b_16">ทรัพยากร</h2>
       <hr className="hr"></hr>
       <div className="resources_grid">
         {resources.map((resource) => {
